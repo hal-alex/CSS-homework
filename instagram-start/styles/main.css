@@ -1,0 +1,58 @@
+ 
+
+:root {
+  --background-color:#fafafa;
+  --button-blue: #3897f0;
+  --border-color: #e6e6e6;
+  --footer-link-color: #003569;
+  --text-grey-color: #999;
+}
+
+
+body, input {
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* FOOTER STYLING */
+
+.footer-list > ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.footer-list > ul > li > a {
+  color: var(--footer-link-color);
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+#last-child-list {
+  color: black;
+}
+
+/* .footer-list > ul > li > a {
+  color: var(--footer-link-color);
+  text-decoration: none;
+  margin: 0 20px;
+} */
+
+/* .footer-list > ul > li > a:last-child   {
+  color:black;
+} */
+
+/* .footer-list ul li:last-child {
+  color:black;
+} */
+
+/* .footer-list:last-child {
+  color:black;
+}  */
